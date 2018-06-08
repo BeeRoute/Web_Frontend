@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+
+.Hive-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 160px;
+  left:50%;
+}
+
+.App-logo {
+  animation: Bee-logo-spin infinite 20s linear;
+  height: 65px;
+  position:absolute;
+  left: 47.5%;
+  top:26.1%;
+}
+
+.App-header {
+  background-color: #3e2c00;
+  position: relative;
+  height: 200px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: #c5c5c5;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes Bee-logo-spin {
+  0% { transform: translate(0px,0px); }
+  20% { transform: translate(60px,0px); }
+  40% { transform: translate(0px,-60px); }
+  60% { transform: translate(-60px,0px); }
+  80% { transform: translate(0px,60px); }
+  100% { transform: translate(0px,0px); }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
